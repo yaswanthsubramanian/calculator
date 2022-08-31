@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <section>
+        
+        <div class="calculator">
+           
+
+            <div class="display">
+                <H1>CASIO</H1>
+                <input id="result" type="text" placeholder="0" >
+            </div>
+            <div class="buttons">
+
+                <button onclick="displayNum(7)">7</button>
+                <button onclick="displayNum(8)">8</button>
+                <button onclick="displayNum(9)">9</button>
+                <button id="a1" onclick="displayNum('/')">/</button>
+                <button onclick="displayNum(4)">4</button>
+                <button onclick="displayNum(5)">5</button>
+                <button onclick="displayNum(6)">6</button>
+                <button  id="a1" onclick="displayNum('*')">x</button>
+                <button onclick="displayNum(1)">1</button>
+                <button onclick="displayNum(2)">2</button>
+                <button onclick="displayNum(3)">3</button>
+                <button  id="a1" onclick="displayNum('-')">-</button>
+                <button onclick="displayNum(0)">0</button>
+                <button  id="a1" onclick="allClear()">CLR</button>
+                <button  id="a1" onclick="displayNum('+')">+</button>
+                <button onclick="evalexpr()" class="eql">=</button>
+                <button  id="a1" onclick="backSpace()">DEL</button>
+            
+
+            </div>
+        </div>
+        
+    </section>
+    
+</body>
+<SCript src="./calculator.js"></SCript>
+</html>

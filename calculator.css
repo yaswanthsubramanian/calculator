@@ -1,0 +1,116 @@
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    background-color: rgb(54, 54, 54);
+    overflow:  hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+section{
+    width: 330px;
+    height: 570px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+     transform: translateY(-50%);
+     border-radius: 20px;
+     display: grid;
+     place-items: center;
+
+     /* border: solid 3px rgb(61, 61, 61); */
+}
+.calc{
+    width:310px;
+    height: 410px;
+    /* background-color: rgb(167, 164, 164); */
+    border-radius:20px ;
+    
+    
+
+}
+.display{
+    width: 99%;
+    height: 100px;
+
+    margin-top: 10px;
+    
+}
+input{
+    width: 99%;
+    height:50px ;
+    border-radius: 10px;
+    border-style: none;
+}
+.buttons{
+    width: 100%;
+    height: 260px;
+    /* background-color: rgb(148, 148, 250); */
+    /* margin-: 10px; */
+    margin-inline: 6px;
+    font-size: 22px;
+    /* background-color: black; */
+    
+
+}
+
+button{
+    width: 60px;
+    height: 50px;
+    margin-top: 20px;
+    margin-inline: 5px;
+    border-style: none;
+    border-radius: 1000px;
+    color: white;
+    background-color: black;
+}
+.eql{
+    background-color: blue;
+}
+H1{
+text-align: center;
+color: white;
+}
+.eql:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+}
+button:hover{
+    color: black;
+    background-color: rgb(212, 208, 208);
+}
+#a1{
+    color: blue;
+}
